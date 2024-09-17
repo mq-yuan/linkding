@@ -31,8 +31,8 @@ jobs:
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
         with:
           upstream_sync_repo: sissbruecker/linkding # 原始仓库
-          upstream_sync_branch: main # 原始仓库的主分支
-          target_sync_branch: main # 你 fork 的仓库的主分支
+          upstream_sync_branch: master # 原始仓库的主分支
+          target_sync_branch: master # 你 fork 的仓库的主分支
           target_repo_token: ${{ secrets.GITHUB_TOKEN }} # 自动生成的 GitHub Token
           test_mode: false # 设置为 false，表示不在测试模式下运行
 
