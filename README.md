@@ -61,7 +61,7 @@ Small improvements, bugfixes and documentation improvements are always welcome. 
 The application is built using the Django web framework. You can get started by checking out the excellent [Django docs](https://docs.djangoproject.com/en/4.1/). The `bookmarks` folder contains the actual bookmark application, `siteroot` is the Django root application. Other than that the code should be self-explanatory / standard Django stuff 🙂.
 
 ### Prerequisites
-- Python 3.10
+- Python 3.12
 - Node.js
 
 ### Setup
@@ -105,7 +105,7 @@ The frontend is now available under http://localhost:8000
 
 Run all tests with pytest:
 ```
-pytest
+make test
 ```
 
 ### Formatting
@@ -117,7 +117,7 @@ make format
 
 ### DevContainers
 
-This repository also supports DevContainers: [![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=git@github.com:sissbruecker/linkding.git)
+This repository also supports DevContainers: [![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/sissbruecker/linkding.git)
 
 Once checked out, only the following commands are required to get started:
 
